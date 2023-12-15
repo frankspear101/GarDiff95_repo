@@ -1,0 +1,35 @@
+Binary diffusion Fixed Rim
+*******************************************************************************************
+From Chakraborty and Ganguly (1992-CMP v 111, 74-86) - refrerenced to 1 bar   -- but ALL MN VALUES
+ Mn         
+5.1D-4     		Dzero(cm**2/sec)
+253420.0D0 		Gactivation(j/mol)
+0.53D0     		Vactiv(j/bar)
+0       .00337		k and (a-aalm) from Carlson
+*******************************************************************************************
+'Mn rims in garnet Grt 657,8925 OS ProgNuc Xsps=max model'
+100.		radius
+1.		grid size
+0           	Linear geometry
+0		mirror core composition (1 = fixed core)
+-----------------------------------------
+Initial conditions
+0	Homogeneous composition
+0.0	Initial composition
+-----------------------------------------
+3	      Number of T-t points
+T dT/dt(Ma) rimComp   radius
+700	0	0.0		100.
+699	-200	1.0		100.
+600	-200.	1.0		100.
+------Plotting information--------
+Mn diffusion
+Radius microns                         
+ 70.0000 .000000 100.00 20.0000 10 0
+Sps                                                                     
+ 50.0000  0000000 1. 15.0000 10  4
+-----------------------------------------
+Garnet initial Mn
+dist(µm)  X spess
+   1.00000000000000  0.5
+    100     .5                                                                                                                                                                                                                     
